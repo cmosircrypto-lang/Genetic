@@ -1,0 +1,7 @@
+[LOAD] validating cached dataset at Backtest/data/okx
+[HASH] hashing 76 symbols and research source
+[START] ADA-USDT-SWAP SHORT; profile=smoke; population=10; generations=3
+[GENETIC] ADA-USDT-SWAP SHORT generation 3/3: evaluated 5/10
+[GENETIC] ADA-USDT-SWAP SHORT generation 3/3: evaluated 10/10
+[GENETIC] ADA-USDT-SWAP SHORT generation 3/3 complete: eligible=4/10, best_fitness=0.7633
+[COMPLETE] ADA-USDT-SWAP SHORT; eligible=5 evaluated=28; elapsed=27.1m

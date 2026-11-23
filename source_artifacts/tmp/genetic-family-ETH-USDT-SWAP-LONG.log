@@ -1,0 +1,4 @@
+[LOAD] validating cached dataset at Backtest/data/okx
+[HASH] hashing 76 symbols and research source
+[START] ETH-USDT-SWAP LONG; profile=smoke; population=10; generations=3
+[COMPLETE] ETH-USDT-SWAP LONG; eligible=3 evaluated=28; elapsed=0.1m

@@ -1,0 +1,205 @@
+{
+  "direction": "SHORT",
+  "elapsed_seconds": 1627.824845723,
+  "metadata": {
+    "code_hash": "86e6f6aa705898210617afd055aa23e3f02f056b32e3ccfbbc10cf6b772afcc6",
+    "config_hash": "a7d407089f07d4f50dd1e210ab8841531b4ef20d08ce21c2945604d9df64c285",
+    "dataset_hash": "d6c1d5c29df96d10dd9a90279f715f04ccbde86e93e17f02b24d550acc036574",
+    "swing_signal_provider": null,
+    "walk_forward": {
+      "fold_count": 3,
+      "oos_fraction": 0.15,
+      "warmup_fraction": 0.5
+    }
+  },
+  "oos_used_for_selection": false,
+  "result": {
+    "best_exploratory": {
+      "eligible": true,
+      "fitness": 0.7633465684627788,
+      "genome": {
+        "atr_period": 14,
+        "atr_stop_multiplier": 1.5,
+        "btc_filter_mode": null,
+        "btc_gap_atr": 0.22,
+        "btc_max_extension_atr": 1.0,
+        "btc_pullback_sl_atr": 1.4,
+        "btc_pullback_tp_atr": 2.95,
+        "btc_pullback_volume": 1.4,
+        "btc_touch_atr": 0.1,
+        "ema_cross_lookback": 4,
+        "ema_fast_period": 5,
+        "ema_min_adx_1h": 16.0,
+        "ema_min_adx_4h": 18.0,
+        "ema_sl_atr": 1.6,
+        "ema_slope_atr": 0.12,
+        "ema_slow_period": 21,
+        "ema_tp_atr": 3.4,
+        "ema_volume_mult": 1.5,
+        "entry_methods": [
+          "DIRECT"
+        ],
+        "family_combination": "VOTE",
+        "mean_reversion_rsi_high": 70.0,
+        "mean_reversion_rsi_low": 30.0,
+        "mean_reversion_zscore": 2.0,
+        "min_family_agreement": 1,
+        "momentum_breakout_buffer_atr": 0.1,
+        "momentum_lookback": 10,
+        "momentum_min_adx": 18.0,
+        "momentum_volume_mult": 1.8,
+        "ob_lookback": 10,
+        "ob_threshold": 0.75,
+        "require_4h_alignment": false,
+        "reward_ratio": 2.0,
+        "risk_percent": 0.5,
+        "signal_families": [
+          "VOLATILITY_SQUEEZE",
+          "EMA_CROSS_PRO",
+          "BTC_ALIGNED_PULLBACK",
+          "MOMENTUM_BREAKOUT"
+        ],
+        "smc_max_sl_atr": 4.0,
+        "smc_min_rr": 1.2,
+        "smc_min_sl_atr": 0.6,
+        "smc_min_volume": 1.5,
+        "smc_sl_buffer_atr": 0.2,
+        "smc_sweep_lookback": 30,
+        "smc_tp_atr": 2.0,
+        "squeeze_bb_period": 24,
+        "squeeze_expansion_atr": 1.2,
+        "squeeze_width_percentile": 25.0,
+        "stop_mode": "ATR",
+        "swing_left": 5,
+        "swing_right": 2,
+        "symbols": [
+          "ADA-USDT-SWAP"
+        ],
+        "touch_rule": "first",
+        "version": 1,
+        "zone_type": "body"
+      },
+      "metrics": {
+        "average_r": 0.19678811121764153,
+        "complexity_penalty": 0.19,
+        "max_drawdown_pct": 4.896096501648028,
+        "positive_window_ratio": 1.0,
+        "profit_factor": 1.3173434350151487,
+        "trade_count": 149,
+        "validation_score": 0.6942673542485803
+      }
+    },
+    "champion": {
+      "eligible": true,
+      "fitness": 0.7633465684627788,
+      "genome": {
+        "atr_period": 14,
+        "atr_stop_multiplier": 1.5,
+        "btc_filter_mode": null,
+        "btc_gap_atr": 0.22,
+        "btc_max_extension_atr": 1.0,
+        "btc_pullback_sl_atr": 1.4,
+        "btc_pullback_tp_atr": 2.95,
+        "btc_pullback_volume": 1.4,
+        "btc_touch_atr": 0.1,
+        "ema_cross_lookback": 4,
+        "ema_fast_period": 5,
+        "ema_min_adx_1h": 16.0,
+        "ema_min_adx_4h": 18.0,
+        "ema_sl_atr": 1.6,
+        "ema_slope_atr": 0.12,
+        "ema_slow_period": 21,
+        "ema_tp_atr": 3.4,
+        "ema_volume_mult": 1.5,
+        "entry_methods": [
+          "DIRECT"
+        ],
+        "family_combination": "VOTE",
+        "mean_reversion_rsi_high": 70.0,
+        "mean_reversion_rsi_low": 30.0,
+        "mean_reversion_zscore": 2.0,
+        "min_family_agreement": 1,
+        "momentum_breakout_buffer_atr": 0.1,
+        "momentum_lookback": 10,
+        "momentum_min_adx": 18.0,
+        "momentum_volume_mult": 1.8,
+        "ob_lookback": 10,
+        "ob_threshold": 0.75,
+        "require_4h_alignment": false,
+        "reward_ratio": 2.0,
+        "risk_percent": 0.5,
+        "signal_families": [
+          "VOLATILITY_SQUEEZE",
+          "EMA_CROSS_PRO",
+          "BTC_ALIGNED_PULLBACK",
+          "MOMENTUM_BREAKOUT"
+        ],
+        "smc_max_sl_atr": 4.0,
+        "smc_min_rr": 1.2,
+        "smc_min_sl_atr": 0.6,
+        "smc_min_volume": 1.5,
+        "smc_sl_buffer_atr": 0.2,
+        "smc_sweep_lookback": 30,
+        "smc_tp_atr": 2.0,
+        "squeeze_bb_period": 24,
+        "squeeze_expansion_atr": 1.2,
+        "squeeze_width_percentile": 25.0,
+        "stop_mode": "ATR",
+        "swing_left": 5,
+        "swing_right": 2,
+        "symbols": [
+          "ADA-USDT-SWAP"
+        ],
+        "touch_rule": "first",
+        "version": 1,
+        "zone_type": "body"
+      },
+      "metrics": {
+        "average_r": 0.19678811121764153,
+        "complexity_penalty": 0.19,
+        "max_drawdown_pct": 4.896096501648028,
+        "positive_window_ratio": 1.0,
+        "profit_factor": 1.3173434350151487,
+        "trade_count": 149,
+        "validation_score": 0.6942673542485803
+      }
+    },
+    "direction": "SHORT",
+    "eligible_phenotypes": 5,
+    "evaluated_phenotypes": 28,
+    "generations": 3,
+    "history": [
+      {
+        "best_drawdown_pct": 2.9627490643734546,
+        "best_eligible": true,
+        "best_fitness": 0.6401737559334355,
+        "best_profit_factor": 1.1613876791389275,
+        "best_trade_count": 31,
+        "eligible_candidates": 1,
+        "generation": 0
+      },
+      {
+        "best_drawdown_pct": 2.9627490643734546,
+        "best_eligible": true,
+        "best_fitness": 0.6401737559334355,
+        "best_profit_factor": 1.1613876791389275,
+        "best_trade_count": 31,
+        "eligible_candidates": 2,
+        "generation": 1
+      },
+      {
+        "best_drawdown_pct": 4.896096501648028,
+        "best_eligible": true,
+        "best_fitness": 0.7633465684627788,
+        "best_profit_factor": 1.3173434350151487,
+        "best_trade_count": 149,
+        "eligible_candidates": 4,
+        "generation": 2
+      }
+    ],
+    "oos_used_for_selection": false,
+    "population_size": 10,
+    "symbol": "ADA-USDT-SWAP"
+  },
+  "symbol": "ADA-USDT-SWAP"
+}

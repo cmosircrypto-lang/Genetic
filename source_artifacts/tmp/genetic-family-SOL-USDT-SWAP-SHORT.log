@@ -1,0 +1,4 @@
+[LOAD] validating cached dataset at Backtest/data/okx
+[HASH] hashing 76 symbols and research source
+[START] SOL-USDT-SWAP SHORT; profile=smoke; population=10; generations=3
+[COMPLETE] SOL-USDT-SWAP SHORT; eligible=9 evaluated=28; elapsed=0.1m

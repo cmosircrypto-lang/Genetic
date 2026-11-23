@@ -1,0 +1,129 @@
+{
+  "direction": "LONG",
+  "elapsed_seconds": 3.7153273720000044,
+  "metadata": {
+    "code_hash": "86e6f6aa705898210617afd055aa23e3f02f056b32e3ccfbbc10cf6b772afcc6",
+    "config_hash": "a7d407089f07d4f50dd1e210ab8841531b4ef20d08ce21c2945604d9df64c285",
+    "dataset_hash": "d6c1d5c29df96d10dd9a90279f715f04ccbde86e93e17f02b24d550acc036574",
+    "swing_signal_provider": null,
+    "walk_forward": {
+      "fold_count": 3,
+      "oos_fraction": 0.15,
+      "warmup_fraction": 0.5
+    }
+  },
+  "oos_used_for_selection": false,
+  "result": {
+    "best_exploratory": {
+      "eligible": false,
+      "fitness": 0.5813215983445084,
+      "genome": {
+        "atr_period": 14,
+        "atr_stop_multiplier": 2.5,
+        "btc_filter_mode": "1d_4h_1h",
+        "btc_gap_atr": 0.22,
+        "btc_max_extension_atr": 1.0,
+        "btc_pullback_sl_atr": 1.4,
+        "btc_pullback_tp_atr": 3.5,
+        "btc_pullback_volume": 1.4,
+        "btc_touch_atr": 0.4,
+        "ema_cross_lookback": 6,
+        "ema_fast_period": 9,
+        "ema_min_adx_1h": 16.0,
+        "ema_min_adx_4h": 12.0,
+        "ema_sl_atr": 1.6,
+        "ema_slope_atr": 0.08,
+        "ema_slow_period": 21,
+        "ema_tp_atr": 3.4,
+        "ema_volume_mult": 1.5,
+        "entry_methods": [
+          "M15_STRUCTURE_BREAK"
+        ],
+        "family_combination": "ANY",
+        "mean_reversion_rsi_high": 80.0,
+        "mean_reversion_rsi_low": 20.0,
+        "mean_reversion_zscore": 2.0,
+        "min_family_agreement": 1,
+        "momentum_breakout_buffer_atr": 0.1,
+        "momentum_lookback": 20,
+        "momentum_min_adx": 18.0,
+        "momentum_volume_mult": 1.2,
+        "ob_lookback": 10,
+        "ob_threshold": 1.0,
+        "require_4h_alignment": false,
+        "reward_ratio": 2.0,
+        "risk_percent": 0.5,
+        "signal_families": [
+          "MOMENTUM_BREAKOUT",
+          "VOLATILITY_SQUEEZE"
+        ],
+        "smc_max_sl_atr": 3.0,
+        "smc_min_rr": 1.2,
+        "smc_min_sl_atr": 0.6,
+        "smc_min_volume": 0.9,
+        "smc_sl_buffer_atr": 0.2,
+        "smc_sweep_lookback": 10,
+        "smc_tp_atr": 2.0,
+        "squeeze_bb_period": 24,
+        "squeeze_expansion_atr": 1.2,
+        "squeeze_width_percentile": 15.0,
+        "stop_mode": "OB_WICK",
+        "swing_left": 2,
+        "swing_right": 8,
+        "symbols": [
+          "BNB-USDT-SWAP"
+        ],
+        "touch_rule": "first",
+        "version": 1,
+        "zone_type": "wick"
+      },
+      "metrics": {
+        "average_r": -0.03498938791076023,
+        "complexity_penalty": 0.08,
+        "max_drawdown_pct": 4.489610815400852,
+        "positive_window_ratio": 0.3333333333333333,
+        "profit_factor": 0.9448516745436162,
+        "trade_count": 122,
+        "validation_score": 0.5760474028185444
+      }
+    },
+    "champion": null,
+    "direction": "LONG",
+    "eligible_phenotypes": 0,
+    "evaluated_phenotypes": 28,
+    "generations": 3,
+    "history": [
+      {
+        "best_drawdown_pct": 0.9975000000000135,
+        "best_eligible": false,
+        "best_fitness": 0.5583285879433497,
+        "best_profit_factor": 1.3959419315358714,
+        "best_trade_count": 17,
+        "eligible_candidates": 0,
+        "generation": 0
+      },
+      {
+        "best_drawdown_pct": 4.489610815400852,
+        "best_eligible": false,
+        "best_fitness": 0.5813215983445084,
+        "best_profit_factor": 0.9448516745436162,
+        "best_trade_count": 122,
+        "eligible_candidates": 0,
+        "generation": 1
+      },
+      {
+        "best_drawdown_pct": 4.489610815400852,
+        "best_eligible": false,
+        "best_fitness": 0.5813215983445084,
+        "best_profit_factor": 0.9448516745436162,
+        "best_trade_count": 122,
+        "eligible_candidates": 0,
+        "generation": 2
+      }
+    ],
+    "oos_used_for_selection": false,
+    "population_size": 10,
+    "symbol": "BNB-USDT-SWAP"
+  },
+  "symbol": "BNB-USDT-SWAP"
+}
